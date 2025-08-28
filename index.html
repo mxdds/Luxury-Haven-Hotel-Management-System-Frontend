@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Haven Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-gem me-2"></i>Luxury Haven
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dining">Dining</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#spa">Spa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3">
+            <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1a9e7c02d&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container text-center text-white hero-content">
+            <h1 class="display-1 mb-4" data-aos="fade-up">Welcome to Luxury Haven</h1>
+            <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">Experience unparalleled luxury and comfort</p>
+            <a href="#rooms" class="btn btn-outline-light btn-lg" data-aos="fade-up" data-aos-delay="400">
+                Explore Rooms <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Luxurious Accommodations</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card room-card shadow">
+                        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3" class="room-img" alt="Deluxe Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe Room</h5>
+                            <p class="card-text">Spacious comfort with modern amenities and city views.</p>
+                            <h6 class="text-primary mb-3">From $299/night</h6>
+                            <a href="#" class="btn btn-outline-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card room-card shadow">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3" class="room-img" alt="Suite">
+                        <div class="card-body">
+                            <h5 class="card-title">Executive Suite</h5>
+                            <p class="card-text">Luxury suite with separate living area and premium services.</p>
+                            <h6 class="text-primary mb-3">From $499/night</h6>
+                            <a href="#" class="btn btn-outline-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card room-card shadow">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3" class="room-img" alt="Presidential Suite">
+                        <div class="card-body">
+                            <h5 class="card-title">Presidential Suite</h5>
+                            <p class="card-text">Ultimate luxury with panoramic views and butler service.</p>
+                            <h6 class="text-primary mb-3">From $999/night</h6>
+                            <a href="#" class="btn btn-outline-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dining Section -->
+    <section id="dining" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Fine Dining Experience</h2>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3" class="img-fluid rounded-3 shadow" alt="Restaurant">
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <h3 class="mb-4">Gourmet Excellence</h3>
+                    <p class="lead">Indulge in culinary masterpieces crafted by our world-renowned chefs.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i> Fine dining restaurant</li>
+                        <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i> Rooftop bar & lounge</li>
+                        <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i> 24/7 room service</li>
+                        <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i> Wine cellar</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#menuModal">View Menu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spa Section -->
+    <section id="spa" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Wellness & Spa</h2>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h3 class="mb-4">Rejuvenate Your Senses</h3>
+                    <p class="lead">Experience ultimate relaxation with our premium spa treatments.</p>
+                    <div class="row g-4 mt-4">
+                        <div class="col-6">
+                            <div class="text-center">
+                                <i class="bi bi-water amenity-icon"></i>
+                                <h5>Pool</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center">
+                                <i class="bi bi-heart-pulse amenity-icon"></i>
+                                <h5>Fitness</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center">
+                                <i class="bi bi-flower1 amenity-icon"></i>
+                                <h5>Massage</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center">
+                                <i class="bi bi-droplet amenity-icon"></i>
+                                <h5>Sauna</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3" class="img-fluid rounded-3 shadow" alt="Spa">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Events & Celebrations</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card room-card shadow">
+                        <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?ixlib=rb-4.0.3" class="room-img" alt="Wedding">
+                        <div class="card-body">
+                            <h5 class="card-title">Weddings</h5>
+                            <p class="card-text">Create unforgettable moments in our elegant venues.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card room-card shadow">
+                        <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3" class="room-img" alt="Conference">
+                        <div class="card-body">
+                            <h5 class="card-title">Conferences</h5>
+                            <p class="card-text">State-of-the-art facilities for successful meetings.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card room-card shadow">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3" class="room-img" alt="Party">
+                        <div class="card-body">
+                            <h5 class="card-title">Social Events</h5>
+                            <p class="card-text">Perfect spaces for celebrations and gatherings.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Contact Us</h2>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-right">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select">
+                                <option selected>Select Inquiry Type</option>
+                                <option>Booking</option>
+                                <option>Events</option>
+                                <option>General</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="contact-info">
+                        <h3 class="mb-4">Get in Touch</h3>
+                        <p><i class="bi bi-geo-alt me-2"></i> 123 Luxury Street, City, Country</p>
+                        <p><i class="bi bi-telephone me-2"></i> +1 234 567 890</p>
+                        <p><i class="bi bi-envelope me-2"></i> info@luxuryhaven.com</p>
+                        <div class="mt-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937967!2d2.292292615509614!3d48.85837007928757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1647544341014!5m2!1sen!2sus" 
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Book Now Modal -->
+<div class="modal fade" id="bookingModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Book Your Stay</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="bookingForm">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Check-in Date</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Check-out Date</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Adults</label>
+                            <select class="form-select">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Children</label>
+                            <select class="form-select">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Special Requests</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Confirm Booking</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Restaurant Menu Modal -->
+<div class="modal fade" id="menuModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Our Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h6 class="text-primary">Starters</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <strong>Caviar & Blini</strong> - $45<br>
+                                <small>Premium caviar served with traditional accompaniments</small>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Lobster Bisque</strong> - $28<br>
+                                <small>Creamy lobster soup with brandy</small>
+                            </li>
+                        </ul>
+                        
+                        <h6 class="text-primary mt-4">Main Courses</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <strong>Wagyu Beef Tenderloin</strong> - $120<br>
+                                <small>Grade A5 Japanese Wagyu with truffle sauce</small>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Mediterranean Sea Bass</strong> - $85<br>
+                                <small>Wild-caught sea bass with herbs and lemon</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-primary">Desserts</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <strong>Chocolate Soufflé</strong> - $25<br>
+                                <small>With vanilla bean ice cream</small>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Crème Brûlée</strong> - $22<br>
+                                <small>Classic French custard with caramelized sugar</small>
+                            </li>
+                        </ul>
+                        
+                        <h6 class="text-primary mt-4">Beverages</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <strong>Premium Wine Selection</strong><br>
+                                <small>Please ask your server for our wine list</small>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Signature Cocktails</strong> - from $18<br>
+                                <small>Crafted by our expert mixologists</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Make a Reservation</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Events Learn More Modals -->
+<div class="modal fade" id="weddingModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Wedding Venues & Services</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?ixlib=rb-4.0.3" class="img-fluid rounded" alt="Wedding Venue">
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Your Dream Wedding Awaits</h6>
+                        <p>Our elegant venues can accommodate up to 300 guests with:</p>
+                        <ul>
+                            <li>Customizable decoration packages</li>
+                            <li>Expert wedding planners</li>
+                            <li>Gourmet catering services</li>
+                            <li>State-of-the-art sound systems</li>
+                            <li>Bridal suite</li>
+                        </ul>
+                        <button class="btn btn-primary mt-3">Request Wedding Package</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="menuModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Our Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h6 class="text-primary">Starters</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <strong>Caviar & Blini</strong> - $45<br>
+                                <small>Premium caviar served with traditional accompaniments</small>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Lobster Bisque</strong> - $28<br>
+                                <small>Creamy lobster soup with brandy</small>
+                            </li>
+                        </ul>
+                        
+                        <h6 class="text-primary mt-4">Main Courses</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <strong>Wagyu Beef Tenderloin</strong> - $120<br>
+                                <small>Grade A5 Japanese Wagyu with truffle sauce</small>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Mediterranean Sea Bass</strong> - $85<br>
+                                <small>Wild-caught sea bass with herbs and lemon</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-primary">Desserts</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <strong>Chocolate Soufflé</strong> - $25<br>
+                                <small>With vanilla bean ice cream</small>
+                            </li>
+                            <li class="mb-2">
+                                <strong>Crème Brûlée</strong> - $22<br>
+                                <small>Classic French custard with caramelized sugar</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Make a Reservation</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Conference Modal -->
+<div class="modal fade" id="conferenceModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Conference Facilities</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3" class="img-fluid rounded" alt="Conference Room">
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Business Excellence</h6>
+                        <p>Our conference facilities include:</p>
+                        <ul>
+                            <li>Multiple meeting rooms (10-500 people)</li>
+                            <li>Latest AV equipment</li>
+                            <li>High-speed WiFi</li>
+                            <li>Catering services</li>
+                            <li>Business center</li>
+                        </ul>
+                        <button class="btn btn-primary mt-3">Request Proposal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Social Events Modal -->
+<div class="modal fade" id="socialModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Social Events</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3" class="img-fluid rounded" alt="Social Event">
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Celebrate in Style</h6>
+                        <p>Perfect for:</p>
+                        <ul>
+                            <li>Birthday parties</li>
+                            <li>Anniversary celebrations</li>
+                            <li>Graduation parties</li>
+                            <li>Corporate events</li>
+                            <li>Holiday gatherings</li>
+                        </ul>
+                        <button class="btn btn-primary mt-3">Book Your Event</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="mb-3">About Luxury Haven</h5>
+                    <p>Experience luxury redefined at our prestigious hotel, where every moment is crafted for perfection.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#rooms" class="text-white">Rooms & Suites</a></li>
+                        <li><a href="#dining" class="text-white">Dining</a></li>
+                        <li><a href="#spa" class="text-white">Spa & Wellness</a></li>
+                        <li><a href="#events" class="text-white">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="text-center mt-4">
+                <p>&copy; 2024 Luxury Haven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Enhanced Navbar scroll effect
+        const navbar = document.querySelector('.custom-navbar');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll <= 0) {
+                navbar.classList.remove('scrolled');
+                return;
+            }
+            
+            if (currentScroll > lastScroll && !navbar.classList.contains('scrolled')) {
+                navbar.classList.add('scrolled');
+            } else if (currentScroll < lastScroll && navbar.classList.contains('scrolled')) {
+                if (currentScroll <= 50) {
+                    navbar.classList.remove('scrolled');
+                }
+            }
+            lastScroll = currentScroll;
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+<script>
+    // Update all button handlers
+    document.addEventListener('DOMContentLoaded', function() {
+        // Handle booking buttons
+        const bookBtns = document.querySelectorAll('.btn-outline-primary');
+        bookBtns.forEach(btn => {
+            if (btn.textContent.trim() === 'Book Now') {
+                btn.setAttribute('data-bs-toggle', 'modal');
+                btn.setAttribute('data-bs-target', '#bookingModal');
+            }
+        });
+    
+        // Handle event buttons
+        const eventCards = document.querySelectorAll('#events .card');
+        eventCards.forEach(card => {
+            const title = card.querySelector('.card-title').textContent.trim();
+            const learnMoreBtn = card.quQ1erySelector('.btn-outline-primary');
+            
+            switch(title) {
+                case 'Weddings':
+                    learnMoreBtn.setAttribute('data-bs-toggle', 'modal');
+                    learnMoreBtn.setAttribute('data-bs-target', '#weddingModal');
+                    break;
+                case 'Conferences':
+                    learnMoreBtn.setAttribute('data-bs-toggle', 'modal');
+                    learnMoreBtn.setAttribute('data-bs-target', '#conferenceModal');
+                    break;
+                case 'Social Events':
+                    learnMoreBtn.setAttribute('data-bs-toggle', 'modal');
+                    learnMoreBtn.setAttribute('data-bs-target', '#socialModal');
+                    break;
+            }
+        });
+    });
+    </script>
+</body>
+<script>
+    // Update all "Book Now" buttons
+    document.querySelectorAll('.btn-outline-primary').forEach(button => {
+        if (button.textContent.trim() === 'Book Now') {
+            button.setAttribute('data-bs-toggle', 'modal');
+            button.setAttribute('data-bs-target', '#bookingModal');
+        }
+    });
+
+    // Update "View Menu" button
+    document.querySelector('a.btn-primary[href="#"]').textContent.trim() === 'View Menu' && 
+    document.querySelector('a.btn-primary[href="#"]').setAttribute('data-bs-toggle', 'modal') &&
+    document.querySelector('a.btn-primary[href="#"]').setAttribute('data-bs-target', '#menuModal');
+
+    // Update Events "Learn More" buttons
+    document.querySelectorAll('.card').forEach(card => {
+        const title = card.querySelector('.card-title')?.textContent.trim();
+        const learnMoreBtn = card.querySelector('.btn-outline-primary');
+        
+        if (title && learnMoreBtn) {
+            switch(title) {
+                case 'Weddings':
+                    learnMoreBtn.setAttribute('data-bs-toggle', 'modal');
+                    learnMoreBtn.setAttribute('data-bs-target', '#weddingModal');
+                    break;
+                
+            }
+        }
+    });
+</script>
+</html>
