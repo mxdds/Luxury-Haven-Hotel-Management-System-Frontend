@@ -1,5 +1,7 @@
 # Luxury Haven Hotel Management System Frontend
 
+[Live Demo on Netlify](https://luxuryhavenhotel.netlify.app)
+
 This is the frontend for the Luxury Haven Hotel Management System. It provides a user interface for hotel guests and staff to interact with the system.
 
 ## Project Structure
